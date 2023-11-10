@@ -1,9 +1,11 @@
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/gestures.dart';
 import 'dart:ui';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:myapp/profilepage/iphone-14-15-pro-2.dart';
 import 'package:myapp/utils.dart';
-import 'package:blur/blur.dart';
+
 
 class Login extends StatelessWidget {
   @override
@@ -155,6 +157,7 @@ class Login extends StatelessWidget {
               child:TextField(
                 obscureText: true,
                 decoration: InputDecoration(
+                  floatingLabelBehavior: FloatingLabelBehavior.never,
                   border: OutlineInputBorder(),
                   labelText: 'Password',
                 ),
@@ -204,8 +207,8 @@ class Login extends StatelessWidget {
             ),
             Container(
               // loginbuttonjp6 (1:37)
-              margin: EdgeInsets.fromLTRB(96*fem, 0*fem, 96*fem, 26*fem),
-              padding: EdgeInsets.fromLTRB(48*fem, 10*fem, 27*fem, 10*fem),
+              margin: EdgeInsets.fromLTRB(100*fem, 0*fem, 100*fem, 26*fem),
+              padding: EdgeInsets.fromLTRB(25*fem, 0*fem, 27*fem, 0*fem),
               width: double.infinity,
               decoration: BoxDecoration (
                 border: Border.all(color: Color(0xffffffff)),
@@ -218,15 +221,21 @@ class Login extends StatelessWidget {
                   ),
                 ],
               ),
+              child: CupertinoButton(
+              onPressed: () {
+                Navigator.push(context, MaterialPageRoute(builder: (context) => Scene()));
+              },
               child: Text(
                 'LOGIN',
+
                 style: SafeGoogleFont (
                   'Inter',
-                  fontSize: 17*ffem,
+                  fontSize: 15*ffem,
                   fontWeight: FontWeight.w500,
                   height: 1.2125*ffem/fem,
                   color: Color(0xffffffff),
                 ),
+              ),
               ),
             ),
             Container(

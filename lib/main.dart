@@ -5,19 +5,20 @@ import 'package:google_fonts/google_fonts.dart';
 import 'package:myapp/utils.dart';
 import 'package:myapp/loginpage/iphone-14-15-pro-2.dart';
 
-void main() => runApp(MyApp());
+void main() => runApp(Wellness());
 
-class MyApp extends StatelessWidget {
+class Wellness extends StatelessWidget {
 	@override
 	Widget build(BuildContext context) {
 	return MaterialApp(
-		title: 'Flutter',
+		title: 'Wellness',
 		debugShowCheckedModeBanner: false,
 		scrollBehavior: MyCustomScrollBehavior(),
 		theme: ThemeData(
 		primarySwatch: Colors.blue,
 		),
 		home: Scaffold(
+			resizeToAvoidBottomInset: false,
 		body: SingleChildScrollView(
 			child: Login(),
 		),

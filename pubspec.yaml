@@ -69,7 +69,26 @@ flutter:
     - assets/loginpage/images/google-logo-825006-1.png
     - assets/loginpage/images/logoblue-removebg-preview-2.png
     - assets/loginpage/images/iphone-14-15-pro-2-bg.png
-
+    - assets/page-1/images/interface-arrows-right-arrow-right-keyboard.png
+    - assets/page-1/images/profile.png
+    - assets/page-1/images/interface-setting-menu-parallel-hamburger-square-navigation-parallel-hamburger-buttonmenu-square.png
+    - assets/page-1/images/vector.png
+    - assets/page-1/images/feed-icon.png
+    - assets/page-1/images/interface-arrows-right-arrow-right-keyboard-4wL.png
+    - assets/page-1/images/interface-alert-alarm-bell-1-notification-vibrate-ring-sound-alarm-alert-bell-noise.png
+    - assets/page-1/images/auto-group-cypk.png
+    - assets/page-1/images/interface-setting-cog-work-loading-cog-gear-settings-machine.png
+    - assets/page-1/images/entertainment-control-button-power-1-power-button-on-off.png
+    - assets/page-1/images/mail-chat-bubble-typing-oval-messages-message-bubble-typing-chat.png
+    - assets/page-1/images/interface-arrows-right-arrow-right-keyboard-7op.png
+    - assets/page-1/images/media-icon.png
+    - assets/page-1/images/profile-icon.png
+    - assets/page-1/images/interface-user-circle-circle-geometric-human-person-single-user.png
+    - assets/page-1/images/interface-arrows-right-arrow-right-keyboard-ktA.png
+    - assets/page-1/images/interface-arrows-right-arrow-right-keyboard-E4S.png
+    - assets/page-1/images/ellipse-643-bg.png
+    - assets/page-1/images/codioful-formerly-gradienta-26wixhtutxc-unsplash-1-bg.png
+    - assets/page-1/images/logoblue-removebg-preview-2.png
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware
 
