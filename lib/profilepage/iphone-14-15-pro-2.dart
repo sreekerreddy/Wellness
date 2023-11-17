@@ -3,6 +3,7 @@ import 'package:flutter/gestures.dart';
 import 'dart:ui';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:myapp/utils.dart';
+import 'package:myapp/loginpage/iphone-14-15-pro-2.dart';
 
 class Scene extends StatelessWidget {
   @override
@@ -676,10 +677,15 @@ class Scene extends StatelessWidget {
                             margin: EdgeInsets.fromLTRB(0*fem, 0*fem, 0*fem, 3.5*fem),
                             width: 31.11*fem,
                             height: 31*fem,
-                            child: Image.asset(
-                              'assets/page-1/images/media-icon.png',
-                              width: 31.11*fem,
-                              height: 31*fem,
+                            child: InkWell(
+                              child: Image.asset(
+                                'assets/page-1/images/media-icon.png',
+                                width: 31.11*fem,
+                                height: 31*fem,
+                              ),
+                              onTap: (){
+                                Navigator.push(context, MaterialPageRoute(builder: (context) => Login()));
+                              },
                             ),
                           ),
                           Center(
@@ -722,7 +728,9 @@ class Scene extends StatelessWidget {
                               height: 30*fem,
                             ),
                           ),
+
                           Center(
+
                             // feedWzN (3:140)
                             child: Text(
                               'Feed',
